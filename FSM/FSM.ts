@@ -1,5 +1,5 @@
 import { StateBase } from "./StateBase";
-import { StateType } from "./StateEnum";
+import { StateType } from "./FSMEnum";
 
 export class  FSM {
   private stateMap: Map<StateType, StateBase> = new Map<StateType, StateBase>();

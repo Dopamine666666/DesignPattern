@@ -1,4 +1,4 @@
-import { StateType } from "./StateEnum";
+import { StateType } from "./FSMEnum";
 
 export abstract class StateBase {
   protected currentState: StateType;

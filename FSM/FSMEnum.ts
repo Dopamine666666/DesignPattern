@@ -7,16 +7,24 @@ export enum StateType {
 
 export enum ParameterType {
   NUMBER,
-  BOOLEAN,
+  // BOOLEAN,
   STRING,
 }
 
-export enum ParameterCompare {
-  INVALID,
+export enum ParameterCompareType {
   GREATER,
   LESS,
   EQUAL,
   NOT_EQUAL,
   GREATER_EQUAL,
   LESS_EQUAL,
+}
+
+export enum LogicalExpression {
+  AND,
+  OR,
+}
+
+export enum ParamName {
+  
 }
